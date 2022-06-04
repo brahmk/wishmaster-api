@@ -1,7 +1,6 @@
 {
   "name": "functions",
   "scripts": {
-    "lint": "eslint --ext .js,.ts .",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "serve": "npm run build && firebase emulators:start --only functions",
@@ -14,6 +13,7 @@
     "node": "16"
   },
   "main": "lib/index.js",
+  "type": "module",
   "dependencies": {
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.18.0"
