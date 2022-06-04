@@ -1,6 +1,5 @@
 {
   "name": "rest",
-  "homepage": "http://brahmk.github.io/wishmaster-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
